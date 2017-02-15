@@ -25,9 +25,19 @@
   </head>
   <body>
     <div class="reveal">
+      <div class="code-logo">
+          <div class="logo"></div>
+      </div>
+
       <div class="slides">
         <section>
-          <h1>Everyone Can Code, Even You!</h1>
+          <div class="card dark title-card">
+            <h1>
+              <span class="title">Everyone</span>
+              <span class="title">Can Code,</span>
+              <span class="title">Even You!</span>
+            </h1>
+          </div>
         </section>
         <section id="quote-slide" data-background-image="img/sky.jpg">
           <div class="card">
@@ -47,16 +57,16 @@
         history: true,
 
         // Parallax background image
-        // parallaxBackgroundImage: 'img/sky.jpg', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+        parallaxBackgroundImage: 'img/code.jpg', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
 
-        // // Parallax background size
-        // parallaxBackgroundSize: '1024px 720px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+        // Parallax background size
+        parallaxBackgroundSize: '1920px 1282px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
 
-        // // Number of pixels to move the parallax background per slide
-        // // - Calculated automatically unless specified
-        // // - Set to 0 to disable movement along an axis
-        // parallaxBackgroundHorizontal: 200,
-        // parallaxBackgroundVertical: 50,
+        // Number of pixels to move the parallax background per slide
+        // - Calculated automatically unless specified
+        // - Set to 0 to disable movement along an axis
+        parallaxBackgroundHorizontal: 200,
+        parallaxBackgroundVertical: 50,
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
