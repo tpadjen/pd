@@ -28,6 +28,13 @@
   font-size: 3rem;
   padding: 1rem 3rem 3rem 3rem;
   text-transform: none;
+
+  text-shadow: #4b4b4b 1px 1px, 
+               #4b4b4b 2px 2px, 
+               #4b4b4b 3px 3px, 
+               #4b4b4b 4px 4px, 
+               #4b4b4b 5px 5px, 
+               #4b4b4b 6px 6px;
 }
 
 .card .author {
@@ -39,6 +46,12 @@
   float: right;
   right: 3rem;
   color: #fff;
+  text-shadow: #4b4b4b 1px 1px, 
+               #4b4b4b 2px 2px, 
+               #4b4b4b 3px 3px, 
+               #4b4b4b 4px 4px; 
+               /*#5b5b5b 5px 5px, 
+               #5b5b5b 6px 6px;*/
 }
 
 #quote-slide {
