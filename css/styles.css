@@ -83,6 +83,24 @@
                #533d4a 6px 6px;
 }
 
+@keyframes pulse1 {
+  to {
+    transform: translate(-50.5%) rotate(-9deg) scale(0.9);
+  }
+}
+
+@keyframes pulse2 {
+  to {
+    transform: translate(-52%) rotate(-12deg) scale(0.90);
+  }
+}
+
+@keyframes pulse3 {
+  to {
+    transform: translate(-48%) rotate(-7deg) scale(1.05);
+  }
+}
+
 .title span {
   transform: skew(-10deg);
   display: block;
@@ -95,14 +113,17 @@
 .title:nth-child(1) { 
   color: #4ECDC4;
   z-index: 1003;
+  animation: pulse1 0.8s infinite alternate ease-in-out;
 }
 .title:nth-child(2) { 
   color: #FF6B6B;
   z-index: 1002;
+  animation: pulse2 1.0s infinite alternate ease-in-out;
 }
 .title:nth-child(3) { 
   color: #FFFFFF;
   z-index: 1001;
+  animation: pulse3 0.9s infinite alternate ease-in-out;
 }
 
 /********  Logo ***********/
