@@ -152,6 +152,10 @@
   justify-content: space-around;
 }
 
+.gallery.centered {
+  align-items: center;
+}
+
 .image h3 {
   font-size: 2.5rem;
   margin-bottom: 0;
@@ -188,6 +192,10 @@ section img {
   color: #4ECDC4;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 .third {
   background: white !important;
   padding: 20px:
@@ -195,7 +203,35 @@ section img {
   width: 400px;
 }
 
+.gallery .list {
+  padding-left: 3rem; 
+  padding-right: 3rem;
+  font-size: 2rem;
+}
 
+.gallery .list ul {
+  width: 200px;
+}
+
+.gallery .list li {
+  margin-left: 1rem;
+}
+
+.gallery.tall {
+  height: 500px;
+}
+
+.image.portrait {
+  height: 500px;
+}
+
+img.noborder {
+  border: none !important;
+}
+
+img.clear {
+  background: none !important;
+}
 
 /********  Logo ***********/
 
