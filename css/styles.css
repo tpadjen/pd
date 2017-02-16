@@ -28,7 +28,9 @@
   font-size: 3rem;
   padding: 1rem 3rem 3rem 3rem;
   text-transform: none;
+}
 
+.card .quote, .card p {
   text-shadow: #4b4b4b 1px 1px, 
                #4b4b4b 2px 2px, 
                #4b4b4b 3px 3px, 
@@ -52,6 +54,10 @@
                #4b4b4b 4px 4px; 
                /*#5b5b5b 5px 5px, 
                #5b5b5b 6px 6px;*/
+}
+
+.card.small {
+  padding-top: 0 !important;
 }
 
 #quote-slide {
@@ -138,6 +144,44 @@
   z-index: 1001;
   animation: pulse3 0.9s infinite alternate ease-in-out;
 }
+
+
+.gallery {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.image h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.image h4 {
+  font-size: 1.8rem;
+}
+
+.image a {
+  color: #FF6B6B;
+  text-transform: none;
+  text-shadow: #533d4a 1px 1px, 
+               #533d4a 2px 2px, 
+               #533d4a 3px 3px, 
+               #533d4a 4px 4px;
+}
+
+.special {
+  color: #4ECDC4;
+}
+
+.third {
+  background: white !important;
+  padding: 20px:
+  border-radius: 4px;
+  width: 400px;
+}
+
+
 
 /********  Logo ***********/
 
