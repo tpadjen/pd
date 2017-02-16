@@ -161,13 +161,27 @@
   font-size: 1.8rem;
 }
 
-.image a {
+.image h4 {
+  margin-top: 0;
   color: #FF6B6B;
   text-transform: none;
   text-shadow: #533d4a 1px 1px, 
                #533d4a 2px 2px, 
                #533d4a 3px 3px, 
                #533d4a 4px 4px;
+}
+
+.image a {
+  color: #FF6B6B;
+}
+
+.image img {
+  margin-bottom: 0 !important;
+}
+
+section img {
+  box-shadow: -25px 25px 60px 5px rgba(0, 0, 0, 0.5), 
+              -60px 60px 100px 13px rgba(0, 0, 0, 0.27);
 }
 
 .special {
